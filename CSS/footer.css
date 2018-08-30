@@ -1,0 +1,39 @@
+footer {
+    background: linear-gradient(#505050, #5e5e5e);;
+}
+
+.socialMedia-grid {
+    display: grid;
+    grid-template-columns: 8fr 1fr 1fr 1fr 1fr 8fr
+}
+
+.socialMediaButtons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60px;
+}
+
+.subFooter {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: linear-gradient(#884EA0, rgb(192, 78, 241));
+}
+
+.footerUL {
+    text-align: center;
+    padding-bottom: 20px;
+}
+ 
+.footerList {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+    padding-right: 5px;
+    text-align: center;
+    border-right: 2px solid rgb(255, 255, 255)
+}
+
+#last-child {
+    border: none;
+}

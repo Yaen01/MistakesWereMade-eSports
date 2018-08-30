@@ -1,0 +1,300 @@
+header {
+    background: linear-gradient(#884EA0, rgb(192, 78, 241));
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    width: 100%;
+    margin: 0;
+}
+
+#mwmLogo {
+    position: relative;
+    display: block;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    display: block;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 20px;;
+    padding-top: 10px;
+    margin-bottom: 10px;
+  
+    position: relative;
+  }
+
+  nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 100%;
+  }
+  
+nav a:hover {
+    color: rgb(0, 0, 0);
+}
+  
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+  
+    position: absolute;
+    top: 0;
+    width: 0%;
+  
+    transition: all ease-in-out 250ms;
+}
+  
+nav a:hover::before {
+    width: 100%;
+}
+.navText {
+    color: white;
+    font-size: 0.9rem;
+    font-family: Arial;
+}
+
+.navText:hover {
+    color: rgb(239, 210, 255);
+}
+
+.sponsorHeader {
+    width: 100%;
+    display: block;
+    height: 60px;
+    background: linear-gradient(#505050, #6d6d6d);
+}
+
+.sponsor-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sponsor {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#performEnergy {
+    margin-top: 10px;
+    padding-right: 15px;
+    width: 100px;
+}
+
+#techniSport {
+    margin-top: 16px;
+    width: 60px;
+}
+
+#slickMats {
+    margin-top: 15px;
+    width: 45px;
+    padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:420px) {
+    header {
+        background-color: #884EA0;
+        display: grid;
+        grid-template-columns: 1fr 8fr 1fr;
+        width: 100%;
+        margin: 0;
+    }
+    
+    #mwmLogo {
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    nav {
+        display: block;
+      }
+      
+      nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+      }
+      
+      nav li {
+        display: inline-block;
+        margin-left: 20px;;
+        padding-top: 10px;
+        margin-bottom: 10px;
+      
+        position: relative;
+      }
+    
+      nav a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 100%;
+      }
+      
+    nav a:hover {
+        color: rgb(0, 0, 0);
+    }
+      
+    nav a::before {
+        content: '';
+        display: block;
+        height: 5px;
+        background-color: rgb(255, 255, 255);
+      
+        position: absolute;
+        top: 0;
+        width: 0%;
+      
+        transition: all ease-in-out 250ms;
+    }
+      
+    nav a:hover::before {
+        width: 100%;
+    }
+    .navText {
+        color: white;
+        font-size: 0.9rem;
+        font-family: Arial;
+    }
+    
+    .navText:hover {
+        color: rgb(239, 210, 255);
+    }
+    
+    .sponsorHeader {
+        width: 100%;
+        display: block;
+        height: 60px;
+        background-color: #505050;
+    }
+    
+    .sponsor-grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .sponsor {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #performEnergy {
+        margin-top: 13px;
+        width: 110px;
+    }
+    
+    #techniSport {
+        margin-top: 16px;
+        width: 80px;
+    }
+    
+    #slickMats {
+        margin-top: 15px;
+        width: 65px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:820px) {
+    #mwmLogo {
+        position: relative;
+        right: 0px;
+        float: right;
+        margin-left: 50%;
+    }
+
+    nav li {
+        padding-top: 30px;
+      }
+
+    nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+
+    .navText {
+        font-size: 1rem;
+    }
+}
